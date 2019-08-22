@@ -510,7 +510,7 @@
 
 .clients {
     text-align: center;
-    border: 2px solid gray; 
+    border-bottom: 2px solid gray; 
     &__headline {
         justify-self: center;
         text-transform: uppercase;
@@ -537,6 +537,19 @@
         }
     }
     
+}
+
+.logo-bar {
+    border-bottom: 2px solid gray; 
+    &__wrapper {
+        max-width: 1100px;
+        margin: 0 auto;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        display: flex;
+        justify-content: space-between;
+    }
+
 }
 
 // style globalne

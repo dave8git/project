@@ -564,7 +564,7 @@
 
 .clients {
   text-align: center;
-  border: 2px solid gray;
+  border-bottom: 2px solid gray;
 }
 
 .clients__headline {
@@ -593,6 +593,21 @@
   display: block;
   font-size: 90px;
   margin-bottom: -20px;
+}
+
+.logo-bar {
+  border-bottom: 2px solid gray;
+}
+
+.logo-bar__wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
 }
 
 .slider-dots {
